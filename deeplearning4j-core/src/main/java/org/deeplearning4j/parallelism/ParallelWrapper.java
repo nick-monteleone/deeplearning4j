@@ -10,6 +10,7 @@ import org.deeplearning4j.nn.graph.ComputationGraph;
 import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
 import org.deeplearning4j.nn.updater.graph.ComputationGraphUpdater;
 import org.deeplearning4j.optimize.api.IterationListener;
+import org.deeplearning4j.optimize.listeners.PerformanceListener;
 import org.nd4j.linalg.api.ndarray.INDArray;
 import org.nd4j.linalg.api.ops.executioner.GridExecutioner;
 import org.nd4j.linalg.dataset.api.DataSet;
@@ -397,11 +398,15 @@ public class ParallelWrapper {
                     this.replicatedModel = new MultiLayerNetwork(conf);
 
                     ((MultiLayerNetwork) replicatedModel).init();
+                    ((MultiLayerNetwork) replicatedModel).setListeners(new PerformanceListener(10));
                 } else if (originalModel instanceof ComputationGraph) {
                     this.replicatedModel = new ComputationGraph(((ComputationGraph) originalModel).getConfiguration().clone());
 
                     ((ComputationGraph) this.replicatedModel).init();
+                    ((ComputationGraph) replicatedModel).setListeners(new PerformanceListener(10));
                 }
+
+
 
                 while (true) {
                     DataSet dataSet = queue.poll(1, TimeUnit.SECONDS);
