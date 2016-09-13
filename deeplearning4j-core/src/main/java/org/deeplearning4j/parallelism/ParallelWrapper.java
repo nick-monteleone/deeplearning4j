@@ -398,12 +398,12 @@ public class ParallelWrapper {
                     this.replicatedModel = new MultiLayerNetwork(conf);
 
                     ((MultiLayerNetwork) replicatedModel).init();
-                    ((MultiLayerNetwork) replicatedModel).setListeners(new PerformanceListener(10));
+                  //  ((MultiLayerNetwork) replicatedModel).setListeners(new PerformanceListener(10));
                 } else if (originalModel instanceof ComputationGraph) {
                     this.replicatedModel = new ComputationGraph(((ComputationGraph) originalModel).getConfiguration().clone());
 
                     ((ComputationGraph) this.replicatedModel).init();
-                    ((ComputationGraph) replicatedModel).setListeners(new PerformanceListener(10));
+                  //  ((ComputationGraph) replicatedModel).setListeners(new PerformanceListener(10));
                 }
 
 
