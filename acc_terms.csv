@@ -1,0 +1,38 @@
+Financial Statement,Section 1,Section 2,Additional Section Names,Field Name,Additional Names
+Balance Sheet,Assets,Current Assets,,Cash,"Cash equivalents, petty cash"
+Balance Sheet,Assets,Current Assets,,Marketable Securities,Temporary investments
+Balance Sheet,Assets,Current Assets,,Accounts Receivable,Accounts receivable - net
+Balance Sheet,Assets,Current Assets,,Notes Receivable,
+Balance Sheet,Assets,Current Assets,,Inventory,Supplies
+Balance Sheet,Assets,Current Assets,,Prepaid Expenses,
+Balance Sheet,Assets,Current Assets,,Prepaid Insurance,
+Balance Sheet,Assets,Non-Current Assets,"Long Term Assets, Non Current Assets",Investments,
+Balance Sheet,Assets,Non-Current Assets,"Long Term Assets, Non Current Assets","Property, plan & equipment","Fixed assets, Land, Land improvements, buildings, equipment"
+Balance Sheet,Assets,Non-Current Assets,"Long Term Assets, Non Current Assets",Less: accumulated depreciation,Less: accum depreciation
+Balance Sheet,Assets,Non-Current Assets,"Long Term Assets, Non Current Assets",Goodwill,Intangible Assets
+Balance Sheet,Assets,Non-Current Assets,"Long Term Assets, Non Current Assets",Trade Names,Intangible Assets
+Balance Sheet,Assets,Non-Current Assets,"Long Term Assets, Non Current Assets",Other Assets,
+Balance Sheet,Liabilities,Current Liabilities,,Accounts Payable,
+Balance Sheet,Liabilities,Current Liabilities,,Notes Payable,"Notes payable due within one year, Loans Payable, Trade Payables"
+Balance Sheet,Liabilities,Current Liabilities,,Accrued Expenses,Accrued Liabilities
+Balance Sheet,Liabilities,Current Liabilities,,Interest Payable,
+Balance Sheet,Liabilities,Current Liabilities,,Wages Payable,"Salaries payable, Commissions Payable, payroll withholdings payable"
+Balance Sheet,Liabilities,Current Liabilities,,Income Taxes Payable,Current tax payable
+Balance Sheet,Liabilities,Current Liabilities,,Sales Taxes Payable,
+Balance Sheet,Liabilities,Current Liabilities,,Dividends Payable,
+Balance Sheet,Liabilities,Current Liabilities,,Unearned Revenues,Unearned revenue
+Balance Sheet,Liabilities,Current Liabilities,,Short-term borrowings,Short-term obligations
+Balance Sheet,Liabilities,Current Liabilities,,Current Portion of Long-Term Debt,"Current maturities of long-term debt, Long-term debt due within one year, Current portion of note"
+Balance Sheet,Liabilities,Current Liabilities,,Other Current Liabilities,Accrued and other current liabilities
+Balance Sheet,Liabilities,Long-Term Liabilities,,Notes Payable,Long-term notes payable
+Balance Sheet,Liabilities,Long-Term Liabilities,,Bonds Payable,
+Balance Sheet,Liabilities,Long-Term Liabilities,,Mortgages Payable,
+Balance Sheet,Liabilities,Long-Term Liabilities,,Long-term debt,
+Balance Sheet,Liabilities,Long-Term Liabilities,,Pension Liabilities,Obligations under employee pension plans
+Balance Sheet,Liabilities,Long-Term Liabilities,,Lease Liabilities,Long-term obligations under capital leases
+Balance Sheet,Liabilities,Long-Term Liabilities,,Deferred Income Taxes,
+Balance Sheet,Liabilities,Long-Term Liabilities,,Other Long-Term Liabilities,
+,Stockholders' Equity,,"Shareholders' Equity, Owners' Equity",Preferred Stock,Paid-in Capital
+,Stockholders' Equity,,"Shareholders' Equity, Owners' Equity",Common Stock,Paid-in Capital
+,Stockholders' Equity,,"Shareholders' Equity, Owners' Equity",Paid-in capital in excess of par-common,Paid-in Capital
+,Stockholders' Equity,,"Shareholders' Equity, Owners' Equity",Retained Earnings,
